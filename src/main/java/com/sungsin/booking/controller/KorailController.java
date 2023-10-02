@@ -12,10 +12,9 @@ public class KorailController {
 
     private final KorailService korailService;
 
-    @PostMapping("/booking")
-    public String booking(@RequestBody Korail korail) {
-        System.out.println(korail.getId());
-        korailService.setting(korail);
+    @PostMapping("/book")
+    public String booking(@RequestBody Korail korail) throws InterruptedException {
+        korailService.booking(korail);
         return "ok";
     }
 
