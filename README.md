@@ -50,7 +50,7 @@
 
 #### 기능
 1. 코레일 로그인
-![img.png](img/img.png)
+![img_1.png](img/login.png)
 
 2. 예약날짜 조회
 ![img_1.png](img/img_1.png)
